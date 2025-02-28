@@ -8,5 +8,11 @@ jobs:
         run: echo "started now"
       - name: finished
         run: echo 'it is finishedDDDDD'
+  second_job:
+    runs-on: windows-latest
+    steps:
+      - name: kir-
+        run: echo "kir-1"
 
-
+      - name: kir-2
+        run: echo "kir-2"
