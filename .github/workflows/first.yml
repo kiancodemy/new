@@ -9,6 +9,7 @@ jobs:
       - name: finished
         run: echo 'it is finishedDDDDD'
   second_job:
+    needs: first_job
     runs-on: windows-latest
     steps:
       - name: kir-
