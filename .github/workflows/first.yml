@@ -7,6 +7,6 @@ jobs:
       - name: start
         run: echo "started now"
       - name: finished
-        run: echo 'it is finished'
+        run: echo 'it is finishedDDDDD'
 
 
